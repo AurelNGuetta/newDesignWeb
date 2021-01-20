@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O2R - Orange Room Reservation</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body class="auth">
+    <section class="connectUser">
+        <div class="leftSide">
+            <div class="contents">
+                <div class="minTitle orange">
+                    Orange Room Reservation
+                    <hr>
+                </div>
+                <div class="minBody gray">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Officia numquam rerum tenetur porro sit voluptate exercitationem 
+                    eum deserunt illum obcaecati.
+                </div>
+                <div class="minBtn">
+                    <a href="#" id="readMore" class="btnm btns-rd btns-auto-adjust btn-white btn-animate">En Savoir Plus</a>
+                </div>
+                <!-- <div class="design"></div> -->
+            </div>
+        </div>
+        <div class="rightSide">
+            <div class="contents">
+                <div class="minTitle">Connection <hr></div>
+                <div class="forms">
+                    <form>
+                        <div class="inputs">
+                            <input type="email" name="email" id="email" placeholder="Entrez votre Email" required>
+                        </div>
+                        <div class="inputs">
+                            <input type="password" name="password" id="password" placeholder="Mot de Passe" required>
+                        </div>
+                        <br><br>
+                        <div class="btns">
+                            <!-- <input type="submit" value="CONNEXION" name="btnConnect" class="btns btns-min-rd back-orange white btns-medium"> -->
+                            <input type="submit" value="CONNEXION" name="btnConnect" style="border: none; cursor: pointer;" class="btnm btns-rd btns-auto-adjust back-orange btn-animate">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="more" class="more">
+        <div class="smallMenu">
+            <div class="title">
+                <div class="logo">
+                    <img src="../img/orange.png" alt="Logo Orange CI">
+                </div>
+                <div class="name orange"><span>Orange Room Reservation</span></div>
+            </div>
+            <div class="close" id="close"><span>&times;</span></div>
+        </div>
+        <div class="contents">
+            <div class="part">
+                <h3>Section Title</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Pariatur facere quas, earum cum id aperiam incidunt sit 
+                    adipisci nulla eos ipsa, perspiciatis perferendis fugit, 
+                    doloremque deleniti exercitationem dignissimos blanditiis 
+                    laboriosam.
+                </p>
+            </div>
+            <div class="part">
+                <h3>Section Title</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Pariatur facere quas, earum cum id aperiam incidunt sit 
+                    adipisci nulla eos ipsa, perspiciatis perferendis fugit, 
+                    doloremque deleniti exercitationem dignissimos blanditiis 
+                    laboriosam.
+                </p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        let close = document.querySelector("#close");
+        let readMore = document.querySelector("#readMore");
+        let more = document.querySelector("#more");
+
+        close.addEventListener("click", function(){
+            more.style.display = "none";
+        })
+
+        readMore.addEventListener("click", function(e){
+            e.preventDefault();
+            if(more.style.display !== "block"){
+                more.style.display = "block";
+            }else{
+                more.style.display = "none";
+            }
+        })
+    </script>
+</body>
+</html>
