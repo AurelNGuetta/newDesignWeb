@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -8,8 +7,8 @@
     <title>Orange Room Reservation</title>
 
     <!--Tarteaucitron -->
-    <link href="css/orangeHelvetica.min.css" rel="stylesheet" integrity="sha384-ZWV5rANfkZIt/7HDFToWXT+5LfpEbtDN22vw9WhARiDc+o6zJ4qxwdTwskCbe8NK" crossorigin="anonymous">
-    <link href="/docs/4.6/dist/css/orangeIcons.min.css" rel="stylesheet" integrity="sha384-7/+XhgsfiKJOYwQYLCI6P8bz89YJEKD2GLErv3KrHbxQ4wPcJ9JcqVZVKAglgBJP" crossorigin="anonymous">
+    <!-- <link href="css/orangeHelvetica.min.css" rel="stylesheet"> -->
+    <!-- <link href="/docs/4.6/dist/css/orangeIcons.min.css" rel="stylesheet" integrity="sha384-7/+XhgsfiKJOYwQYLCI6P8bz89YJEKD2GLErv3KrHbxQ4wPcJ9JcqVZVKAglgBJP" crossorigin="anonymous"> -->
     <link href="css/boosted.min.css" rel="stylesheet">
 
     <!-- Favicons -->
@@ -18,6 +17,11 @@
     
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
+    
+    <!-- Slick -->
+    <link href="slick/slick.css" rel="stylesheet">
+    <link href="slick/slick-theme.css" rel="stylesheet">
+
   </head>
   <body>
 
@@ -42,8 +46,8 @@
 </header>
 
 <section role="main" id="main">
-    <section class="contents">
-        <div class="title"><h2>Orange Digital Center</h2></div>
+    <section class="departement">
+        <div class="title"><h2>Orange Digital Academy</h2></div>
         <div class="contents">
             <section class="product">
                 <div class="product__photo">
@@ -90,92 +94,186 @@
             </section>
 
             <section class="product">
-              <div class="product__photo">
-                  <div class="photo-container">
-                      <div class="photo-main" style="background: rgb(90, 103, 98);">
-                          <div class="controls">
-                              <i class="material-icons"></i>
-                              <i class="material-icons"></i>
-                          </div>
-                          <img src="img/orange2.jpg" alt="green apple slice">
-                      </div>
-                      <div class="photo-album">
-                          <ul>
-                              <li><img src="img/orange2.jpg" alt="green apple"></li>
-                          </ul>
-                      </div>
-                  </div>
-              </div>
-              <div class="product__info">
-                  <div class="title">
-                      <h1>Salle de réunion</h1>
-                      <span>Orange Digital Academy</span>
-                  </div>
-                  <div class="price orange">
-                      <span>15</span> places
-                  </div>
-                  <div class="variant">
-                      <h3>VOUS Y TROUVEREZ</h3>
-                      <ul>
-                          <li><img src="img/orange2.jpg" alt="green apple"></li>
-                      </ul>
-                  </div>
-                  <div class="description">
-                      <h3>AVANTAGES</h3>
-                      <ul>
-                          <li>Apples are nutricious</li>
-                          <li>Apples may be good for weight loss</li>
-                          <li>Apples may be good for bone health</li>
-                          <li>They're linked to a lowest risk of diabetes</li>
-                      </ul>
-                  </div>
-                  <button class="buy--btn back-orange">JE RESERVE</button>
-              </div>
-          </section>
-
-          <section class="product">
-            <div class="product__photo">
-                <div class="photo-container">
-                    <div class="photo-main" style="background: rgb(86, 90, 102);">
-                        <div class="controls">
-                            <i class="material-icons"></i>
-                            <i class="material-icons"></i>
+                <div class="product__photo">
+                    <div class="photo-container">
+                        <div class="photo-main" style="background: rgb(90, 103, 98);">
+                            <div class="controls">
+                                <i class="material-icons"></i>
+                                <i class="material-icons"></i>
+                            </div>
+                            <img src="img/orange2.jpg" alt="green apple slice">
                         </div>
-                        <img src="img/Orange3.jpeg" alt="green apple slice">
+                        <div class="photo-album">
+                            <ul>
+                                <li><img src="img/orange2.jpg" alt="green apple"></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="photo-album">
+                </div>
+                <div class="product__info">
+                    <div class="title">
+                        <h1>Salle de réunion</h1>
+                        <span>Orange Digital Academy</span>
+                    </div>
+                    <div class="price orange">
+                        <span>15</span> places
+                    </div>
+                    <div class="variant">
+                        <h3>VOUS Y TROUVEREZ</h3>
+                        <ul>
+                            <li><img src="img/orange2.jpg" alt="green apple"></li>
+                        </ul>
+                    </div>
+                    <div class="description">
+                        <h3>AVANTAGES</h3>
+                        <ul>
+                            <li>Apples are nutricious</li>
+                            <li>Apples may be good for weight loss</li>
+                            <li>Apples may be good for bone health</li>
+                            <li>They're linked to a lowest risk of diabetes</li>
+                        </ul>
+                    </div>
+                    <button class="buy--btn back-orange">JE RESERVE</button>
+                </div>
+            </section>
+
+            <section class="product">
+                <div class="product__photo">
+                    <div class="photo-container">
+                        <div class="photo-main" style="background: rgb(86, 90, 102);">
+                            <div class="controls">
+                                <i class="material-icons"></i>
+                                <i class="material-icons"></i>
+                            </div>
+                            <img src="img/Orange3.jpeg" alt="green apple slice">
+                        </div>
+                        <div class="photo-album">
+                            <ul>
+                                <li><img src="img/Orange3.jpeg" alt="green apple"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product__info">
+                    <div class="title">
+                        <h1>Salle de réunion</h1>
+                        <span>Orange Digital Academy</span>
+                    </div>
+                    <div class="price orange">
+                        <span>15</span> places
+                    </div>
+                    <div class="variant">
+                        <h3>VOUS Y TROUVEREZ</h3>
                         <ul>
                             <li><img src="img/Orange3.jpeg" alt="green apple"></li>
                         </ul>
                     </div>
+                    <div class="description">
+                        <h3>AVANTAGES</h3>
+                        <ul>
+                            <li>Apples are nutricious</li>
+                            <li>Apples may be good for weight loss</li>
+                            <li>Apples may be good for bone health</li>
+                            <li>They're linked to a lowest risk of diabetes</li>
+                        </ul>
+                    </div>
+                    <button class="buy--btn back-orange">JE RESERVE</button>
                 </div>
-            </div>
-            <div class="product__info">
-                <div class="title">
-                    <h1>Salle de réunion</h1>
-                    <span>Orange Digital Academy</span>
+            </section>
+        </div>
+    </section>
+
+    <section class="departement">
+        <div class="title"><h2>Fondation Orange </h2></div>
+        <div class="contents">
+            <section class="product">
+                <div class="product__photo">
+                    <div class="photo-container">
+                        <div class="photo-main" style="background: rgb(86, 90, 102);">
+                            <div class="controls">
+                                <i class="material-icons"></i>
+                                <i class="material-icons"></i>
+                            </div>
+                            <img src="img/Orange3.jpeg" alt="green apple slice">
+                        </div>
+                        <div class="photo-album">
+                            <ul>
+                                <li><img src="img/Orange3.jpeg" alt="green apple"></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="price orange">
-                    <span>15</span> places
+                <div class="product__info">
+                    <div class="title">
+                        <h1>Salle de réunion</h1>
+                        <span>Orange Digital Academy</span>
+                    </div>
+                    <div class="price orange">
+                        <span>15</span> places
+                    </div>
+                    <div class="variant">
+                        <h3>VOUS Y TROUVEREZ</h3>
+                        <ul>
+                            <li><img src="img/Orange3.jpeg" alt="green apple"></li>
+                        </ul>
+                    </div>
+                    <div class="description">
+                        <h3>AVANTAGES</h3>
+                        <ul>
+                            <li>Apples are nutricious</li>
+                            <li>Apples may be good for weight loss</li>
+                            <li>Apples may be good for bone health</li>
+                            <li>They're linked to a lowest risk of diabetes</li>
+                        </ul>
+                    </div>
+                    <button class="buy--btn back-orange">JE RESERVE</button>
                 </div>
-                <div class="variant">
-                    <h3>VOUS Y TROUVEREZ</h3>
-                    <ul>
-                        <li><img src="img/Orange3.jpeg" alt="green apple"></li>
-                    </ul>
+            </section>
+
+            <section class="product">
+                <div class="product__photo">
+                    <div class="photo-container">
+                        <div class="photo-main" style="background: rgb(90, 103, 98);">
+                            <div class="controls">
+                                <i class="material-icons"></i>
+                                <i class="material-icons"></i>
+                            </div>
+                            <img src="img/orange2.jpg" alt="green apple slice">
+                        </div>
+                        <div class="photo-album">
+                            <ul>
+                                <li><img src="img/orange2.jpg" alt="green apple"></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="description">
-                    <h3>AVANTAGES</h3>
-                    <ul>
-                        <li>Apples are nutricious</li>
-                        <li>Apples may be good for weight loss</li>
-                        <li>Apples may be good for bone health</li>
-                        <li>They're linked to a lowest risk of diabetes</li>
-                    </ul>
+                <div class="product__info">
+                    <div class="title">
+                        <h1>Salle de réunion</h1>
+                        <span>Orange Digital Academy</span>
+                    </div>
+                    <div class="price orange">
+                        <span>15</span> places
+                    </div>
+                    <div class="variant">
+                        <h3>VOUS Y TROUVEREZ</h3>
+                        <ul>
+                            <li><img src="img/orange2.jpg" alt="green apple"></li>
+                        </ul>
+                    </div>
+                    <div class="description">
+                        <h3>AVANTAGES</h3>
+                        <ul>
+                            <li>Apples are nutricious</li>
+                            <li>Apples may be good for weight loss</li>
+                            <li>Apples may be good for bone health</li>
+                            <li>They're linked to a lowest risk of diabetes</li>
+                        </ul>
+                    </div>
+                    <button class="buy--btn back-orange">JE RESERVE</button>
                 </div>
-                <button class="buy--btn back-orange">JE RESERVE</button>
-            </div>
-        </section>
+            </section>
+
         </div>
     </section>
 </section>
@@ -213,7 +311,20 @@
   </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="/docs/4.6/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.6/dist/js/boosted.bundle.min.js" integrity="sha384-8GY/c7MOtsvb9OfczW1hZlZfhibvBlgxQshIoFKoTIuruwcGG4a3lGw5wdBTBocN" crossorigin="anonymous"></script>
+<script src="js/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/docs/4.6/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+<script src="js/boosted.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@4.5.1/dist/js/swiper.min.js"></script>
+<script src="slick/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.autoplay').slick({
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 5000,
+        });
+    });
+</script>
 </body>
 </html>

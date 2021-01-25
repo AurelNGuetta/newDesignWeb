@@ -1,0 +1,27 @@
+
+/*
+
+  INSTRUCTIONS ---------------------------------------------------------------------------------
+  
+  1. Add this stylesheet to the <head> of your pages
+     <link href="YOUR PATH/Aurel.css" rel="stylesheet" type="text/css" />
+     
+  2. Use the file name as data-dd-theme attribute on your datedropper elements
+     <input data-dd-theme="Aurel" />
+     
+*/
+
+
+div.datedropper.Orange {
+
+  --dd-color1: #000000;
+  --dd-color2: #ffffff;
+  --dd-color3: #ff7900;
+  --dd-color4: #ff7900;
+
+  --dd-radius: 9px;
+  --dd-width: 198px;
+  --dd-shadow: 0 0 58px 6px rgba(0, 0, 0, 0.21);
+
+}
+

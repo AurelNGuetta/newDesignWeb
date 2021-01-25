@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Orange and Boosted contributors">
+    <title>Orange Room Reservation</title>
+
+    <!--Tarteaucitron -->
+    <!-- <link href="css/orangeHelvetica.min.css" rel="stylesheet"> -->
+    <!-- <link href="/docs/4.6/dist/css/orangeIcons.min.css" rel="stylesheet" integrity="sha384-7/+XhgsfiKJOYwQYLCI6P8bz89YJEKD2GLErv3KrHbxQ4wPcJ9JcqVZVKAglgBJP" crossorigin="anonymous"> -->
+    <link href="../css/boosted.min.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="icon" href="../img/favicon.ico" sizes="16x16" type="image/icon">
+    <meta name="theme-color" content="#000000">
+    
+    <!-- Custom styles for this template -->
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/orange.css" rel="stylesheet">
+
+    
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/rooms.pro.min.js"></script>
+
+  </head>
+<body class="view">
+
+<header role="banner">
+  <!-- Primary navigation bar -->
+  <nav role="navigation" class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="../img/orange.png" alt="Back to homepage" title="Back to homepage" width="50" height="50" loading="lazy"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsing-navbarHead" aria-controls="collapsing-navbarHead" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse justify-content-between collapse" id="collapsing-navbarHead">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#">Nos salles</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Tableau de Bord</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section class="mainDetail">
+    <section class="layout" style="background: url(../img/orange.jpg) no-repeat; background-size: 100%; ">
+        <div class="room-name">
+            <div class="name"><h1 class="white">Salle de Conférence ODA</h1></div>
+            <div class="section sub gray">Orange Digital Academy</div>
+        </div>
+    </section>
+    <section class="info">
+        <section class="reserve">
+            <div class="reserve-dates">
+                <div class="group">
+                    <label for="chechIn">Arrivée</label>
+                    <input type="text" class="dates" id="chechIn" name="chechIn" placeholder="Date d'Arrivée">
+                </div>
+                <div class="group">
+                    <label for="checkOut">Départ</label>
+                    <input type="text" class="dates" id="checkOut" name="checkOut" placeholder="Date de Départ">
+                </div>
+                <div class="inline-group">
+                    <div class="group">
+                        <label for="motif">Motif</label>
+                        <select name="motif" id="motif">
+                            <option value="1">Anniversaire</option>
+                            <option value="1">Baptême</option>
+                            <option value="1">Mariage</option>
+                            <option value="1">Formation</option>
+                            <option value="1">Concert</option>
+                        </select>
+                    </div>
+                    <div class="group">
+                        <label for="person">Nombre de personnes </label>
+                        <input type="number" name="personCount" id="person">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="infoText">
+            <div class="title">    
+               <h1> Découvrez Orange Digital Academy </h1>
+            </div>
+            <div class="describe gray sub">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ipsa quisquam ipsum soluta, cupiditate vero repellendus dolorum explicabo. 
+                Eius voluptatem doloremque quod blanditiis ex non, modi ad! Suscipit nisi magni aut.
+            </div>
+        </section>
+        <section class="bottomImage">
+            <img src="../img/orange.jpg" alt="Salle Orange CI">
+        </section>
+    </section>
+
+    <section class="moreInfo">
+        <div class="firstSide">
+            <div class="head">
+                <div class="sub gray">Tout pour votre confort</div>
+                <div class="text"><h2>Plus d'Infomations</h2></div>
+            </div>
+            <div class="body">
+                <div class="items">
+                    <div class="item">
+                        <div class="img">
+                            <img src="../img/orange.jpg" class="noFilter" alt="">
+                        </div>
+                        <div class="message">
+                            <div class="m-title">Info #1</div>
+                            <div class="sub">Description #1</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="../img/orange.jpg" class="noFilter" alt="">
+                        </div>
+                        <div class="message">
+                            <div class="m-title">Info #1</div>
+                            <div class="sub">Description #1</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="secondSide">
+            <img src="../img/orange.jpg" class="noFilter" alt="Salle Orange CI">
+        </div>
+    </section>
+
+</section>
+
+<!-- Footer -->
+<footer class="o-footer" id="footer" role="contentinfo">
+  <h2 class="sr-only">Site map & informations</h2>
+  <div class="o-footer-top">
+    <div class="container">
+      <div class="row mb-0">
+        <ul class="nav align-items-center">
+          <li class="nav-item"><span class="nav-link">Suivez-nous:</span></li>
+          <li class="nav-item ml-2"><a class="nav-link btn btn-inverse btn-social btn-twitter" href="https://twitter.com/CI_Orange?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><span class="sr-only">Twitter</span></a></li>
+          <li class="nav-item ml-2"><a class="nav-link btn btn-inverse btn-social btn-facebook" href="https://fr-fr.facebook.com/orangecotedivoire/"><span class="sr-only">Facebook</span></a></li>
+          <li class="nav-item ml-2"><a class="nav-link btn btn-inverse btn-social btn-instagram" href="https://www.instagram.com/orangecotedivoire/?hl=fr"><span class="sr-only">Instagram</span></a></li>
+          <li class="nav-item ml-2"><a class="nav-link btn btn-inverse btn-social btn-linkedin" href="https://fr.linkedin.com/company/orange-c-te-d%27ivoire"><span class="sr-only">Linkedin</span></a></li>
+          <li class="nav-item ml-2"><a class="nav-link btn btn-inverse btn-social btn-youtube" target="_blank" href="https://www.youtube.com/user/orangecotedivoire"><span class="sr-only">YouTube</span></a></li>
+          <li class="nav-item ml-2"><a class="nav-link btn btn-inverse btn-social btn-mail" href="mailto:marc-aurel.nguetta@orange.ci"><span class="sr-only">Mail</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="o-footer-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <h3>Discover</h3>
+          <ul class="nav flex-column" lang="zxx">
+            <li class="nav-item"><a class="nav-link" href="#">Unde omnis istea</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Natus error sit</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Voluptatem</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Totam rem aperiam</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript">
+    $('.dates').dateDropper({
+        theme: 'Orange',
+        lang: 'fr',
+        roundtrip: true,
+        minDate: '09/28/2020'
+    });
+    let minis = document.querySelectorAll('.mini');
+    let viewer = document.querySelector('#viewer')
+    minis.forEach(function(elmt){
+        elmt.addEventListener('click', function(e){
+            document.querySelector('.lists .active').classList.remove('active');
+            e.target.classList.add('active')
+            viewer.src = e.target.src;
+        })
+    })
+
+</script>
+
+
+</body>
+</html>
